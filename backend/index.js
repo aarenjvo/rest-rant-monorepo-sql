@@ -10,7 +10,7 @@ const cookieSession = require('cookie-session')
 app.use(cookieSession({
     name: 'session',
     keys: [ process.env.SESSION_SECRET ],
-    maxAge: 24 * 60 * 60 * 1000 // 24 hours
+    maxAge: 24 * 60 * 60 * 1000 // 24 hours //
 }))
 app.use(cors({
     origin: 'http://localhost:3000',
