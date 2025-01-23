@@ -12,11 +12,16 @@ h2 {
     color: lightblue;
 }
 
+img {
+    align-items: center;
+}
+
 main {
     margin-right: 20px;
     margin-left: 20px;
     padding: 20px;
     background-color: white;
+    text-align: center;
 }
 
 nav {
